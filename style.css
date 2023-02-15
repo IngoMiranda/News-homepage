@@ -28,43 +28,46 @@
 }
 
 bady{
-
+    width: 100vw;
+    height: 100vh;
     background: var(--Neutral-Off-white);
 }
 p{
     font-size:.8rem;
 }
-main{
-    display: grid;
-    
-    
 
+main{
+    padding: 20px;
+    margin: 0 auto;
 }
 
 header{
 
     width: 100vw;
     height: 4rem;
+    margin-bottom: 1rem;
     background-color: var(--Neutral-Dark-grayish-blue);
 }
+
 nav{
-    width: 100%;
+    width: 100vw;
     height: 4rem;
     padding: auto 1rem;
-    display: grid;
-    grid-template-columns: 1fr 1fr ;
-    justify-items: center;
+    display: flex;
+    justify-content: space-around;
     align-items: center;
     
 
 }
 
-ul{
-    display: grid;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
-    row-gap: .3rem;
+ul li{
     list-style: none;
-
 }
+
+.img-principal img{
+    width: 335px;
+    height: 293px;
+}
+
 
 
