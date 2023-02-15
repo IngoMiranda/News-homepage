@@ -37,7 +37,7 @@ p{
 }
 
 main{
-    padding: 20px;
+    
     margin: 0 auto;
 }
 
@@ -46,7 +46,7 @@ header{
     width: 100vw;
     height: 4rem;
     margin-bottom: 1rem;
-    background-color: var(--Neutral-Dark-grayish-blue);
+    background-color: var(--Neutral-Off-white);
 }
 
 nav{
@@ -54,7 +54,7 @@ nav{
     height: 4rem;
     padding: auto 1rem;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     
 
@@ -62,12 +62,68 @@ nav{
 
 ul li{
     list-style: none;
+    display: none;
+}
+
+section{
+    min-width: 336px;
+    padding: 1rem;
+    
+
+    
+}
+
+/*Primeira Seção*/ 
+
+.title{
+
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
 }
 
 .img-principal img{
-    width: 335px;
-    height: 293px;
+    width: 98%;
+    height: 50%;
 }
 
+.infor{
+    display: flex;
+    flex-wrap:wrap;
+    gap: 1.3rem;
 
 
+}
+
+.infor > h1 {
+
+    font-size: 2.2rem;
+    font-weight: 900;
+    line-height: 2.6rem;
+    color: var(--Neutral-Very-dark-blue);
+}
+
+.infor > p {
+
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.4rem;
+    color: var(--Neutral-Dark-grayish-blue);
+}
+
+button{
+    width: 12rem;
+    height: 2.7rem;
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--Neutral-Off-white);
+    border: none;
+    background: var(--primary-soft-red);
+    cursor: pointer;
+    
+}
+
+button:hover{
+    background: var(--Neutral-Very-dark-blue);
+    transition: 900ms;
+}
