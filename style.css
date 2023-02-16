@@ -83,6 +83,7 @@ nav > .logo, .hamburguer{
 }
 
 .list{
+    display: none;
     width: 70%;
     height: 100%;
     position: absolute;
