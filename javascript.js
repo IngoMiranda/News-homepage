@@ -1,15 +1,9 @@
-let header = document.querySelector('#header');
-let hamburgue =  document.querySelector('.list');
-let ul = document.querySelector('ul');
 
-
-
-
-hamburgue.style.background = "blue";
-hamburgue.style.cursor.background = "pointer";
-
+let btn = document.querySelector(".btn img");
 
 function clickburgue(){
+   
+    btn.setAttribute("src", "./assets/images/icon-menu-close.svg")
 
 
 }
