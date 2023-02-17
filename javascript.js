@@ -7,7 +7,7 @@ function clickburgue(){
     let list = document.querySelector(".list");
    
     btn.setAttribute("src", "./assets/images/icon-menu-close.svg");
-    list.style.display = "block"
+    
 
 
 }
