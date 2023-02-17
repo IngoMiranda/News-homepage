@@ -27,10 +27,11 @@
 
 }
 
-bady{
+body{
     
+    width: 100vw;
     overflow-x: hidden;
-    background: var(--Neutral-Off-white);
+    background: var(--primary-soft-orange);
 }
 
 p{
@@ -89,6 +90,7 @@ nav > button {
 
 
 .menu-list{
+    
     width: 80vw;
     height: 100vh;
     display: flex;
@@ -100,10 +102,29 @@ nav > button {
     position: absolute;
     top: 12vh;
     right: 0;
+    transform: translateX(100%);
     background: var(--primary-soft-red);
+    transition: 0.3s ease-in;
+    
 }
 
+.menu-list.active{
+    
+   
+    transform: translateX(0);
+   
+}
 
+@keyframes mov{
+    from{
+        opacity: 0; 
+        transform: translateX(50px)
+    }
+    to{
+        opacity: 1;
+        transform: translateX(0)
+    }
+} 
 
 
 section{
