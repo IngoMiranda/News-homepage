@@ -269,7 +269,9 @@ section{
 
 @media( max-width: 799px) {
 
-
+    body{
+        overflow-x:hidden ;
+    }
 
     main{
         width: 100%;
