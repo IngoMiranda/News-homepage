@@ -8,6 +8,7 @@ function clickburgue(){
        
     btn.classList.toggle("active");
     list.classList.toggle("active");
+    list.style.transition =  '0.4s ease-in'; 
  
     if(btn.classList.contains("active")){
 
